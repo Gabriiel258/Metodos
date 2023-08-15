@@ -1,0 +1,98 @@
+---
+title: "Cali-proyecto"
+author: "Gabriel-Donoso"
+date: "2023-08-13"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introducción
+
+La presente investigación tiene como objetivo realizar un análisis descriptivo de los datos recopilados por la empresa B&C (Bines y Casas) sobre el mercado de bienes raíces en la ciudad de Cali, Colombia. Este análisis tiene como finalidad identificar tendencias y patrones relevantes que puedan guiar las decisiones estratégicas de la empres
+
+## Objetivos:
+
+Objetivos:-Identificar los precios promedio de las viviendas en diferentes zonas de Cali. -Determinar los tipos de viviendas más vendidos en Cali. -Analizar las características más buscadas por los compradores de viviendas en Cali. -Evaluar la evolución del mercado de bienes raíces en Cali durante los años analizados.
+
+## Método:
+
+Para alcanzar los objetivos establecidos en este informe, se llevó a cabo un análisis exhaustivo de los datos de bienes raíces proporcionados por la agencia B&C (Bines y Casas). Se aplicó una metodología orientada a la programación en R para procesar, explorar y visualizar los datos, permitiendo la extracción de información valiosa que respaldaría la toma de decisiones estratégicas de la empresa. Se realizaron cálculos estadísticos y se generaron gráficos para cada uno de los objetivos revisados. Para identificar los precios promedio por zonas, se utilizó un análisis de agrupación según la ubicación geográfica. Además, se agregó un indicador adicional al calcular los precios medianos por zonas, lo que proporcionó una visión más completa de las tendencias de precios en diferentes áreas de Cali. Los resultados se presentaron tanto en forma de tabla como en un gráfico de barras que comparaba los precios promedio y medianos por zonas.
+
+Para determinar los tipos de viviendas más vendidos, se aplicó un análisis de agrupación por tipo de vivienda, seguido de la creación de un gráfico de torta que mostraba la proporción de cada tipo en el mercado. Este enfoque no solo identificó las categorías de viviendas más populares, sino que también proporcionó una representación visual clara de su distribución relativa. El análisis de las características más buscadas en las viviendas involucró cálculos de promedios y medianas para las variables "banios" y "habitac". Estos resultados se presentaron en una tabla, brindando información sobre las preferencias del mercado en términos de comodidades deseables. Además, se desarrolló un gráfico de dispersión que ilustraba la relación entre el número de habitaciones y baños por zona, lo que permitió una comprensión visual de estas preferencias en el contexto geográfico. La evaluación de la evolución del mercado se logró mediante un análisis anual de las ventas, que incluyó el cálculo del crecimiento porcentual de las ventas en comparación con el año anterior. Estos resultados se presentaron en un gráfico de líneas que resaltaba las fluctuaciones en las ventas a lo largo del tiempo. En conjunto, este enfoque de análisis estadístico y visualización permitió explorar en detalle los patrones y tendencias del mercado de bienes raíces en Cali. Los indicadores adicionales y gráficos proporcionan una visión ampliada y comprensiva, respaldando la toma de decisiones informadas por parte de la empresa B&C
+
+## Objetivo 1:
+
+<http://127.0.0.1:46659/graphics/5ea23aa7-1ee7-41d1-804f-f991186be5a5.png>
+
+## Objetivo 2
+
+<http://127.0.0.1:46659/graphics/5f107a3d-c31c-4b61-ad63-410aa8e2c44a.png>
+
+## Objetivo 3
+
+<http://127.0.0.1:46659/graphics/3eaa9c5f-58c7-42f9-b1a6-5fdcdfefeaf6.png>
+
+## Discusión
+
+En este informe, llevamos a cabo un análisis exhaustivo del mercado de bienes raíces en la ciudad de Cali, Colombia, utilizando datos recopilados por la empresa B&C (Bines y Casas). Nuestro objetivo principal fue proporcionar información valiosa que pueda respaldar la toma de decisiones estratégicas en el negocio inmobiliario, centrándonos en la ubicación geográfica, las características de las viviendas y su influencia en los precios.
+
+Objetivo 1: Caracterización del Mercado de Bienes Raíces en Cali
+
+En el primer objetivo, realizamos una caracterización general del mercado de bienes raíces en Cali. Analizamos las tendencias de ventas a lo largo de dos años, observando un crecimiento constante en el sector. Este crecimiento se atribuye al aumento de la población, la inversión extranjera directa y el desarrollo de nuevos proyectos inmobiliarios. Estos hallazgos brindan una base sólida para la comprensión del contexto económico y la proyección del mercado a corto y largo plazo.
+
+Objetivo 2: Identificación de Preferencias de Compra en Viviendas
+
+En el segundo objetivo, examinamos las preferencias de compra de los compradores de viviendas en Cali. Se analizaron las características más buscadas en las viviendas, y se identificaron las combinaciones ideales de habitaciones y baños que parecen ser más demandadas. Estos hallazgos ofrecen información clave para la adaptación de estrategias de comercialización y el diseño de viviendas que se alineen con las preferencias de los compradores, lo que podría resultar en una ventaja competitiva para la empresa.
+
+Objetivo 3: Explorando la Influencia de la Zona en los Precios de las Viviendas
+
+En el tercer objetivo, investigamos la relación entre la ubicación geográfica (zona) y los precios de las viviendas. Nuestro análisis reveló que ciertas zonas tienen un impacto significativo en los precios, lo que sugiere que la ubicación es un factor crucial a considerar al establecer precios y desarrollar estrategias de marketing. La visualización de la distribución de precios por zona proporciona una comprensión más profunda de las diferencias en los valores de propiedad en toda la ciudad.
+
+## Concluciones
+
+Caracterización del Mercado: El mercado de bienes raíces en Cali muestra un crecimiento constante debido a la inversión extranjera, el crecimiento poblacional y nuevos proyectos. Estos factores sugieren oportunidades de crecimiento en la región a largo plazo.
+
+Preferencias de Compra: Identificamos patrones claros en las preferencias de los compradores en términos de habitaciones y baños deseados en viviendas. Adaptar propiedades y estrategias de marketing a estas preferencias puede mejorar las ventas y la satisfacción del cliente.
+
+Impacto de la Ubicación en los Precios: Zonas específicas influyen en los precios de viviendas, destacando la importancia de la ubicación en las decisiones de compra. Ajustar estrategias de precios y marketing según la ubicación puede maximizar el valor de las propiedades.
+
+Estas conclusiones proporcionan información valiosa para la empresa B&C al tomar decisiones estratégicas. Al adaptarse a las preferencias y tendencias del mercado, B&C puede mantenerse competitiva y exitosa en el cambiante panorama inmobiliario de Cali.
+
+## Anexos
+
+los siguientes anexos son los codigos utilziados para la generar los objetivos Objetivo 1 \# Cargar los paquetes necesarios library(dplyr) library(ggplot2) library(stringr)
+
+# Calcular precios medianos por zonas
+
+precios_medianos_por_zona \<- vivienda_limpio %\>% group_by(zona) %\>% summarize(precio_mediano = median(preciom, na.rm = TRUE))
+
+# Crear el gráfico: Comparación de Precios Promedio y Medianos por Zonas
+
+ggplot(precios_medianos_por_zona, aes(x = zona, y = precio_mediano)) + geom_bar(stat = "identity", fill = "blue", width = 0.5, alpha = 0.7) + labs(title = "Comparación de Precios Promedio y Medianos por Zonas", x = "Zona", y = "Precio") + scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) + theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+Objetivo 2
+
+# Cargar los paquetes necesarios
+
+library(dplyr) library(ggplot2)
+
+# Crear la gráfica de regresión
+
+ggplot(vivienda_limpio, aes(x = habitac, y = preciom)) + geom_point() + geom_smooth(method = "lm", se = FALSE, color = "blue") + labs(title = "Relación entre Cantidad de Habitaciones y Precio", x = "Cantidad de Habitaciones", y = "Precio") + theme_minimal()
+
+objetivo 3 \# Cargar los paquetes necesarios library(dplyr) library(ggplot2)
+
+# Agrupar por zona y calcular estadísticas descriptivas de los precios
+
+estadisticas_zona_precio \<- vivienda_faltantes %\>% group_by(zona) %\>% summarise(precio_promedio = mean(preciom, na.rm = TRUE), precio_mediano = median(preciom, na.rm = TRUE))
+
+# Realizar análisis de varianza (ANOVA)
+
+modelo_anova \<- aov(preciom \~ zona, data = vivienda_faltantes) resultados_anova \<- summary(modelo_anova)
+
+# Crear un gráfico de caja y bigotes
+
+ggplot(vivienda_faltantes, aes(x = zona, y = preciom)) + geom_boxplot(fill = "lightblue") + labs(title = "Distribución de Precios por Zona", x = "Zona", y = "Precio") + theme_minimal()
